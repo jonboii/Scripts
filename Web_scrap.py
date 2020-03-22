@@ -23,7 +23,7 @@ find('/html/body/table/tbody/tr[1]/td[2]/div[1]/div[2]/form/div/table/tbody/tr[1
 
 #selection of TDY
 find('/html/body/table/tbody/tr[1]/td[2]/div[1]/div[2]/form/div/table/tbody/tr[1]/td[1]/div/table[2]/tbody/tr[2]/td/select').click()
-find('/html/body/table/tbody/tr[1]/td[2]/div[1]/div[2]/form/div/table/tbody/tr[1]/td[1]/div/table[2]/tbody/tr[2]/td/select/option[7]').click()
+find('/html/body/table/tbody/tr[1]/td[2]/div[1]/div[2]/form/div/table/tbody/tr[1]/td[1]/div/table[2]/tbody/tr[2]/td/select/option[6]').click()
 
 #selection of E5
 find('/html/body/table/tbody/tr[1]/td[2]/div[1]/div[2]/form/div/table/tbody/tr[1]/td[1]/div/table[3]/tbody/tr[2]/td[3]/select').click()
