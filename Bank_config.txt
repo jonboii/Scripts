@@ -1,0 +1,1 @@
+'Transfer Deposit VIRTUAL BRANCH TRANSFER FROM', 'Cash Withdrawal', POS', 'XXXXXX', '\d+', 'WHITE RIV JCTVT', '/', ':'
