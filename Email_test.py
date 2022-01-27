@@ -8,9 +8,9 @@ def send_email():
         mailer = smtplib.SMTP('smtp.office365.com:587')
         mailer.ehlo()
         mailer.starttls()
-        mailer.login('jpa@nrgsystems.com', 'W1nd052019')
+        mailer.login('email@email.com', 'pass')
         message = 'subject{0}\r\n{1}\r\n'.format(subject, msg)
-        mailer.sendmail('jpa@nrgsystems.com', 'jonathan.p.alvin93@gmail.com', message)
+        mailer.sendmail('email@email.com', 'email@gmail.com', message)
         mailer.quit()
         print("Success: Email sent!")
         subject = test
