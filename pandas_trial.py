@@ -5,7 +5,7 @@ import shutil
 
 
 
-statement = pd.read_csv('A:\Jonathan\Downloads\history.csv', engine='python')
+statement = pd.read_csv('Path', engine='python')
 statement.drop(['Confirmation', 'Check Number', 'Unnamed: 5'], axis=1, inplace=True)
 
 #Trying to remove transsfer deposit and cash withdrawal
