@@ -7,7 +7,7 @@ def send_email(subject, message):
         mailer.starttls()
         mailer.login(config.ADDRESS, config.PASSWORD)
         message = 'subject{0}\n\n{1}'.format(subject, message)
-        mailer.sendmail(config.ADDRESS, 'jonathan.p.alvin93@gmail.com', message)
+        mailer.sendmail(config.ADDRESS, 'email@gmail.com', message)
         mailer.quit()
         print("Success: Email sent!")
         pass
