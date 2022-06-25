@@ -2,12 +2,12 @@ import selenium
 from selenium import webdriver
 
 driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
-driver.get('http://af.dodlodging.net/propertys/Keesler-AFB')
+driver.get('http://lodging.net')
 find = driver.find_element_by_xpath
 find2 = driver.find_elements_by_link_text
 wait = driver.implicitly_wait('30')
-startdate = '5/25/2020'
-enddate = '11/18/2020'
+startdate = 'MM/DD/YYYY'
+enddate = 'MM/DD/YYYY'
 
 
 find('/html/body/form/div[5]/div[2]/div/div[1]/div/div[7]/span/input').click()
